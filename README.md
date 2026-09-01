@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="velora-jobbook-logo.png" alt="Velora JobBook" width="150" />
+  <img src="velora-jobbook-wordmark.png" alt="Velora JobBook" width="280" />
 
   # Velora JobBook
 
@@ -118,7 +118,7 @@ The product is in Beta and is being refined through workflow testing, regression
 
 **Amith Baiju E**  
 Founder & AI-Assisted Product Builder  
-Email: [amithbaijuedakkalathur@gmail.com](mailto:amithbaijuedakkalathur@gmail.com)  
+Email: [amithbaijuedakkalathur@gmail.com](mailto:amithbaijuedakkalathur@gmail.com)amithbaijuedakkalathur@gmail.com
 LinkedIn: [linkedin.com/in/amith-baiju](https://www.linkedin.com/in/amith-baiju/)
 
 A demo link will be added after the walkthrough is ready.
