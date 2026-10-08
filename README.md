@@ -87,21 +87,25 @@ AI accelerated implementation, but product judgment, scope, prioritization, revi
 
 ## Screenshots
 
-Clean product screenshots are being prepared for this section.
+<img src="https://raw.githubusercontent.com/amithbaijuedakkalathur-cyber/velora-jobbook-showcase/main/public/screens/jobs.jpg" alt="Existing JobBook Android capture showing searchable jobs and completion statuses" width="280" />
 
-| Dashboard | Job workflow | Invoice and reports |
-|---|---|---|
-| _Screenshot coming soon_ | _Screenshot coming soon_ | _Screenshot coming soon_ |
+This existing application capture is also used by the [live showcase](https://velora-jobbook-showcase.netlify.app/). It is interface evidence, not proof of business results or successful test execution. More existing captures are available in the showcase; no invoice/report capture is claimed here.
 
-## Demo
+## Explore the product
 
-A short product walkthrough is being prepared. It will cover:
+[Open the interactive product showcase](https://velora-jobbook-showcase.netlify.app/) to explore capabilities, workflow illustrations and existing Android screenshots. The website presents the product; it does not run the Android application or execute transactions.
 
-`Dashboard → create a job → record work and money → finalize an invoice → review reports`
+## Architecture and engineering decisions
+
+The documented stack is Flutter/Dart on Android, Provider for state management and SQLite via `sqflite` for local persistence. Core workflows begin on the device so field work can continue without reliable connectivity. Job and money records feed invoice/report workflows, while portable backups use a manifest and SHA-256 integrity validation.
+
+This is a product-level overview based on existing documentation. Private implementation and test artifacts were not inspected in this public repository. No schema, signing material, customer database or proprietary application code is published.
+
+Key decisions are connected workflows over isolated screens, local storage for offline use, explicit partial-settlement tracking, review before invoice finalization and integrity checks for backups. See [validation and release notes](docs/VALIDATION.md) for evidence boundaries.
 
 ## Current status
 
-**Version 0.9.0-beta.2**
+**Last documented version: 0.9.0-beta.2**
 
 The product is in Beta and is being refined through workflow testing, regression testing, and user feedback before a stable V1 release. This repository intentionally avoids claiming production-scale adoption or results that have not yet been measured.
 
@@ -121,7 +125,7 @@ Founder & AI-Assisted Product Builder
 Email: [amithbaijuedakkalathur@gmail.com](mailto:amithbaijuedakkalathur@gmail.com)
 LinkedIn: [linkedin.com/in/amith-baiju](https://www.linkedin.com/in/amith-baiju/)
 
-A demo link will be added after the walkthrough is ready.
+[Portfolio](https://amith-baiju.netlify.app/) · [Live product showcase](https://velora-jobbook-showcase.netlify.app/)
 
 ---
 
